@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <title>Feedback</title>
+</head>
+
+<body>
+
+    <div class="feedback">
+        <h1 class="form__header">Форма обратной связи</h1>
+        <form class="form__action" action="send.php" method="post" name="f1">
+            <ul>
+                <li class="form__item name">
+                    <input class="feedback__input " type="text" name="name" required></li>
+                <li class="form__item mail">
+                    <input id="mail" class="feedback__input " type="email" name="email" required="required"></li>
+                <li class="form__item tel">
+                    <input class="feedback__input " type="tel" name="tel" required="required"></li>
+                <li class="form__item birth">
+
+
+                    <input class="feedback__input " type="date" value="2021-11-15" required="required" name="birth"></li>
+                <li class="form__item text">
+
+                    <textarea class="feedback__input " placeholder="Ваш вопрос" name="text" required="required"></textarea></li>
+                <li class="form__item"><button class="button">Отправить</button></li>
+
+            </ul>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
