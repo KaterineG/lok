@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feedback {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.feedback__input {
+    padding: 20px 40px;
+    border-radius: 16px;
+    border: 2px solid #333;
+    font-size: 16px;
+}
+
+.button {
+    padding: 30px 70px;
+    border-radius: 16px;
+    border: 2px solid #333;
+    background-color: rgb(6, 115, 240);
+}
+
+ul {
+    list-style: none;
+}
+
+.form__item {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.name::after {
+    content: 'Имя';
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 117px);
+    background-color: #fff;
+}
+
+.mail::after {
+    content: 'E-mail';
+    padding: 5px;
+    padding: 5px;
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 117px);
+    background-color: #fff;
+}
+
+.tel::after {
+    content: 'Телефон';
+    padding: 5px;
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 117px);
+    background-color: #fff;
+}
+
+.birth::after {
+    content: 'Дата рождения';
+    padding: 5px;
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 117px);
+    background-color: #fff;
+}
+
+.text::after {
+    content: 'Ваш вопрос';
+    padding: 5px;
+    position: absolute;
+    top: -14px;
+    left: calc(50% - 117px);
+    background-color: #fff;
+}
